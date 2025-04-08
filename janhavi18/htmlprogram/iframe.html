@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFrame Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .iframe-box {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 350px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Embedded Content with iFrames</h1>
+    
+    <div class="grid-container">
+        <div class="iframe-box">
+            <h2>wikipedia</h2>
+            <iframe src="https://www.wikipedia.org/"></iframe>
+        </div>
+        
+     
+        
+        <div class="iframe-box">
+            <h2>DYPCET</h2>
+            <iframe src="https://coek.dypgroup.edu.in/" title="Google Maps"></iframe>
+        </div>
+    </div>
+</body>
+</html>
+
+
